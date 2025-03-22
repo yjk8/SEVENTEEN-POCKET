@@ -1,18 +1,18 @@
+/* 设置页面背景 */
 body {
+    background-image: url('images/photo_6267210613717582591_y.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
-    background-color: #b5d3e7; /* 浅蓝色 */
+    color: white;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
+/* 头部导航栏 */
 header {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-}
-
-h1 {
-    color: #333;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
 }
 
 nav ul {
@@ -22,19 +22,30 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 10px;
+    margin: 0 15px;
 }
 
-nav a {
+nav ul li a {
+    color: white;
     text-decoration: none;
-    font-size: 18px;
-    color: #007BFF;
+}
+
+/* 主要内容 */
+main {
+    margin-top: 50px;
 }
 
 .group-photo {
-    width: 80%;
-    max-width: 600px;
-    margin-top: 20px;
+    width: 60%;
+    max-width: 500px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+
+/* 页脚 */
+footer {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
 }
