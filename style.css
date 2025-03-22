@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f4b8d1, #b5d3e7;
+    body {
+    background-color: #f0f8ff; /* 浅蓝色 */
+}
     text-align: center;
     margin: 0;
     padding: 0;
